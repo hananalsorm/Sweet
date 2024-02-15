@@ -1,0 +1,70 @@
+*{box-sizing: border-box}
+
+body{
+background:url('1.jpg');
+background-size: cover;
+background-position: center;
+
+}
+form{
+    width: 400px;
+    height: 400px;
+    backdrop-filter: blur(55px);
+    border: 1px solid  rgb(1, 1, 1);
+    border-radius: 40px;
+    margin: 40px auto;
+    margin-top: 80px
+}
+h2{color:pink;
+font-weight: bold;
+font-style: italic;
+font-size: 40px;
+text-align: center;
+}
+input[type="text"],[type ="password"]{
+    width: 200px;
+    height: 50px; 
+    margin-bottom: 20px;
+    margin-left: 80px;
+    border : 2px solid rgb(247, 236, 236);
+    border-radius: 10px;
+    outline : none
+}input[type="checkbox"]{
+
+    background-color: rgb(250, 243, 243);
+    margin-left: 80px;
+    background-color: rgb(247, 237, 237);
+    margin: 15px 0 50px 8px;
+}   
+
+    form .box:focus{
+border-color: var(--pink);
+    }
+.loginbutton{
+display: inline-block;
+margin-left: 30%;
+border-radius: 3rem;
+background: #333;
+color: #fff;
+padding: .5rem 2.5rem;
+font-size: 1rem;
+margin-top: 0px;
+
+}
+.loginbutton:hover{
+   background-color:pink;
+}
+.forget{
+    margin-bottom: 1px;
+    margin-left: 0px;
+    font-size: 20px;
+    font-style: italic;
+    color: #333;
+    margin-left:110px ;
+}
+
+
+
+
+
+
